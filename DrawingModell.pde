@@ -118,10 +118,10 @@ void drawAxes() {
   box(200,8,100);
   fill(255,255,255);
   text("+y", -210, 0, 0);
-  text("-y: "  + nf(degrees(value[1]),2,1)  + "°" , 210, 0, 0);
+  text("-y: "  + nf(degrees(value[2]),2,1)  + "°" , 210, 0, 0);
   text("-z: " + nf(degrees(value[0]),2,1)  + "°" , 0, 210, 0);
   text("+z", 0, -210, 0);
-  text("-x: "  + nf(degrees(value[2]),2,1) + "°" , 0, 0, 210);
+  text("-x: "  + nf(degrees(value[1]),2,1) + "°" , 0, 0, 210);
   text("+x", 0, 0, -210);
 }
 
